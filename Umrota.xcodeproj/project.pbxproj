@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		176D2E5222B5384100020C04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D2E5122B5384100020C04 /* AppDelegate.swift */; };
+		176D2E5422B5384100020C04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D2E5322B5384100020C04 /* ViewController.swift */; };
+		176D2E5722B5384100020C04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176D2E5522B5384100020C04 /* Main.storyboard */; };
+		176D2E5922B5384300020C04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 176D2E5822B5384300020C04 /* Assets.xcassets */; };
+		176D2E5C22B5384300020C04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 176D2E5A22B5384300020C04 /* LaunchScreen.storyboard */; };
+		176D2E6722B5384300020C04 /* UmrotaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D2E6622B5384300020C04 /* UmrotaTests.swift */; };
+		176D2E7222B5384300020C04 /* UmrotaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176D2E7122B5384300020C04 /* UmrotaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		176D2E6322B5384300020C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176D2E4622B5384100020C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176D2E4D22B5384100020C04;
+			remoteInfo = Umrota;
+		};
+		176D2E6E22B5384300020C04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 176D2E4622B5384100020C04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 176D2E4D22B5384100020C04;
+			remoteInfo = Umrota;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		176D2E4E22B5384100020C04 /* Umrota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Umrota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		176D2E5122B5384100020C04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		176D2E5322B5384100020C04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		176D2E5622B5384100020C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		176D2E5822B5384300020C04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		176D2E5B22B5384300020C04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		176D2E5D22B5384300020C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176D2E6222B5384300020C04 /* UmrotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmrotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176D2E6622B5384300020C04 /* UmrotaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrotaTests.swift; sourceTree = "<group>"; };
+		176D2E6822B5384300020C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		176D2E6D22B5384300020C04 /* UmrotaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UmrotaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		176D2E7122B5384300020C04 /* UmrotaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UmrotaUITests.swift; sourceTree = "<group>"; };
+		176D2E7322B5384300020C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		176D2E4B22B5384100020C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176D2E5F22B5384300020C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176D2E6A22B5384300020C04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		176D2E4522B5384100020C04 = {
+			isa = PBXGroup;
+			children = (
+				176D2E5022B5384100020C04 /* Umrota */,
+				176D2E6522B5384300020C04 /* UmrotaTests */,
+				176D2E7022B5384300020C04 /* UmrotaUITests */,
+				176D2E4F22B5384100020C04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		176D2E4F22B5384100020C04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				176D2E4E22B5384100020C04 /* Umrota.app */,
+				176D2E6222B5384300020C04 /* UmrotaTests.xctest */,
+				176D2E6D22B5384300020C04 /* UmrotaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		176D2E5022B5384100020C04 /* Umrota */ = {
+			isa = PBXGroup;
+			children = (
+				176D2E5122B5384100020C04 /* AppDelegate.swift */,
+				176D2E5322B5384100020C04 /* ViewController.swift */,
+				176D2E5522B5384100020C04 /* Main.storyboard */,
+				176D2E5822B5384300020C04 /* Assets.xcassets */,
+				176D2E5A22B5384300020C04 /* LaunchScreen.storyboard */,
+				176D2E5D22B5384300020C04 /* Info.plist */,
+			);
+			path = Umrota;
+			sourceTree = "<group>";
+		};
+		176D2E6522B5384300020C04 /* UmrotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				176D2E6622B5384300020C04 /* UmrotaTests.swift */,
+				176D2E6822B5384300020C04 /* Info.plist */,
+			);
+			path = UmrotaTests;
+			sourceTree = "<group>";
+		};
+		176D2E7022B5384300020C04 /* UmrotaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				176D2E7122B5384300020C04 /* UmrotaUITests.swift */,
+				176D2E7322B5384300020C04 /* Info.plist */,
+			);
+			path = UmrotaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		176D2E4D22B5384100020C04 /* Umrota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176D2E7622B5384300020C04 /* Build configuration list for PBXNativeTarget "Umrota" */;
+			buildPhases = (
+				176D2E4A22B5384100020C04 /* Sources */,
+				176D2E4B22B5384100020C04 /* Frameworks */,
+				176D2E4C22B5384100020C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Umrota;
+			productName = Umrota;
+			productReference = 176D2E4E22B5384100020C04 /* Umrota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		176D2E6122B5384300020C04 /* UmrotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176D2E7922B5384300020C04 /* Build configuration list for PBXNativeTarget "UmrotaTests" */;
+			buildPhases = (
+				176D2E5E22B5384300020C04 /* Sources */,
+				176D2E5F22B5384300020C04 /* Frameworks */,
+				176D2E6022B5384300020C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176D2E6422B5384300020C04 /* PBXTargetDependency */,
+			);
+			name = UmrotaTests;
+			productName = UmrotaTests;
+			productReference = 176D2E6222B5384300020C04 /* UmrotaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		176D2E6C22B5384300020C04 /* UmrotaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 176D2E7C22B5384300020C04 /* Build configuration list for PBXNativeTarget "UmrotaUITests" */;
+			buildPhases = (
+				176D2E6922B5384300020C04 /* Sources */,
+				176D2E6A22B5384300020C04 /* Frameworks */,
+				176D2E6B22B5384300020C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				176D2E6F22B5384300020C04 /* PBXTargetDependency */,
+			);
+			name = UmrotaUITests;
+			productName = UmrotaUITests;
+			productReference = 176D2E6D22B5384300020C04 /* UmrotaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		176D2E4622B5384100020C04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Tatang Roswandi Ganda Wijaya";
+				TargetAttributes = {
+					176D2E4D22B5384100020C04 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					176D2E6122B5384300020C04 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 176D2E4D22B5384100020C04;
+					};
+					176D2E6C22B5384300020C04 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 176D2E4D22B5384100020C04;
+					};
+				};
+			};
+			buildConfigurationList = 176D2E4922B5384100020C04 /* Build configuration list for PBXProject "Umrota" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 176D2E4522B5384100020C04;
+			productRefGroup = 176D2E4F22B5384100020C04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				176D2E4D22B5384100020C04 /* Umrota */,
+				176D2E6122B5384300020C04 /* UmrotaTests */,
+				176D2E6C22B5384300020C04 /* UmrotaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		176D2E4C22B5384100020C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176D2E5C22B5384300020C04 /* LaunchScreen.storyboard in Resources */,
+				176D2E5922B5384300020C04 /* Assets.xcassets in Resources */,
+				176D2E5722B5384100020C04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176D2E6022B5384300020C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176D2E6B22B5384300020C04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		176D2E4A22B5384100020C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176D2E5422B5384100020C04 /* ViewController.swift in Sources */,
+				176D2E5222B5384100020C04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176D2E5E22B5384300020C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176D2E6722B5384300020C04 /* UmrotaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		176D2E6922B5384300020C04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				176D2E7222B5384300020C04 /* UmrotaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		176D2E6422B5384300020C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176D2E4D22B5384100020C04 /* Umrota */;
+			targetProxy = 176D2E6322B5384300020C04 /* PBXContainerItemProxy */;
+		};
+		176D2E6F22B5384300020C04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 176D2E4D22B5384100020C04 /* Umrota */;
+			targetProxy = 176D2E6E22B5384300020C04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		176D2E5522B5384100020C04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176D2E5622B5384100020C04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		176D2E5A22B5384300020C04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				176D2E5B22B5384300020C04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		176D2E7422B5384300020C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		176D2E7522B5384300020C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		176D2E7722B5384300020C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = Umrota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatang-Roswandi-Ganda-Wijaya.Umrota";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		176D2E7822B5384300020C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = Umrota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatang-Roswandi-Ganda-Wijaya.Umrota";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		176D2E7A22B5384300020C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = UmrotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatang-Roswandi-Ganda-Wijaya.UmrotaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umrota.app/Umrota";
+			};
+			name = Debug;
+		};
+		176D2E7B22B5384300020C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = UmrotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatang-Roswandi-Ganda-Wijaya.UmrotaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umrota.app/Umrota";
+			};
+			name = Release;
+		};
+		176D2E7D22B5384300020C04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = UmrotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatang-Roswandi-Ganda-Wijaya.UmrotaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Umrota;
+			};
+			name = Debug;
+		};
+		176D2E7E22B5384300020C04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Z4G3XCB9Y;
+				INFOPLIST_FILE = UmrotaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Tatang-Roswandi-Ganda-Wijaya.UmrotaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Umrota;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		176D2E4922B5384100020C04 /* Build configuration list for PBXProject "Umrota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176D2E7422B5384300020C04 /* Debug */,
+				176D2E7522B5384300020C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176D2E7622B5384300020C04 /* Build configuration list for PBXNativeTarget "Umrota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176D2E7722B5384300020C04 /* Debug */,
+				176D2E7822B5384300020C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176D2E7922B5384300020C04 /* Build configuration list for PBXNativeTarget "UmrotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176D2E7A22B5384300020C04 /* Debug */,
+				176D2E7B22B5384300020C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		176D2E7C22B5384300020C04 /* Build configuration list for PBXNativeTarget "UmrotaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				176D2E7D22B5384300020C04 /* Debug */,
+				176D2E7E22B5384300020C04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 176D2E4622B5384100020C04 /* Project object */;
+}
